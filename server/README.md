@@ -18,7 +18,7 @@ Install the required dependencies by running the following command:
 ### `npm install`
 
 ## Configuration
-Create a .env file and provide the necessary configurations, such as the MongoDB connection URL
+Create a .env file in the root directory and provide the necessary configurations, such as the MongoDB connection URL
 ### `DATABASEURL='mongodb+srv://<username>:<password>@todolist.w4z1rq4.mongodb.net/?retryWrites=true&w=majority'`
 
 ### `node index.js`

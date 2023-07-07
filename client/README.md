@@ -17,7 +17,7 @@ Install the required dependencies by running the following command:
 ### `npm install`
 
 ## Environment
-This project uses a .env file with the following definitions: 
+Create a .env file in the root directory and provide the neccessary configurations: 
 ### `REACT_APP_FRONT_END_URL='http://localhost:3000'`
 ### `REACT_APP_BACK_END_URL='http://localhost:3001'`
 
