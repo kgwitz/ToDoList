@@ -5,10 +5,6 @@ const ToDoSchema = new mongoose.Schema({
         type: String, 
         required: true
     },
-    priority: {
-        type: Number, 
-        required: true
-    },
     done: {
         type: Boolean,
         required: true
