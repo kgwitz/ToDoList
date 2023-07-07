@@ -2,6 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
 const fs = require('fs');
+require('dotenv').config();
 const app = express()
 
 const PORT = process.env.PORT || 3001
@@ -14,7 +15,7 @@ app.use(todoRouter)
 
 const config = JSON.parse(fs.readFileSync('./config.json', 'utf-8'));
 
-mongoose.connect(config.databaseURL,
+mongoose.connect(process.env.DATABASEURL,
     { useNewUrlParser: true, }
 )
 
